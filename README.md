@@ -1,4 +1,3 @@
-```markdown
 # Kopi Bangelan - Website Statis
 
 ![Preview Website](images/preview.png)
