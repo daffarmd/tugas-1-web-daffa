@@ -19,12 +19,13 @@ Website dapat diakses online melalui GitHub Pages:
 [https://daffarmd.github.io/kopi-bangelan/](https://daffarmd.github.io/kopi-bangelan/)
 
 ## Struktur Folder
-
 /index.html        -> Halaman Beranda
+
 /produk.html       -> Halaman Produk
+
 /tentang.html      -> Halaman Tentang
+
 /kontak.html       -> Halaman Kontak
-/style.css         -> File CSS utama
 
 
 ## Cara Menjalankan
