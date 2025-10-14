@@ -31,11 +31,8 @@ Website dapat diakses online melalui GitHub Pages:
 1. Clone repository ini:
    ```bash
    git clone https://github.com/daffarmd/kopi-bangelan.git
-````
-
 2. Buka salah satu file `.html` di browser favoritmu.
    Contoh: `index.html`
-   
 (Optional)
 3. Gunakan plugin live server
 
