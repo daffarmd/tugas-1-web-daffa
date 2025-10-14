@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kopi Bangelan - Cita Rasa Asli Malang</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 20px;
+            font-family: Georgia, serif;
+            background-image: url('https://images.unsplash.com/photo-1509042239860-f550ce710b93');
+            background-size: cover;
+            background-position: center;
+            background-color: rgba(245, 235, 220, 0.85);
+            background-blend-mode: multiply;
+        }
+
+        .vintage-border {
+            border: 8px double #4a3728;
+        }
+
+        /* ==================== HEADER ==================== */
+        .header-table {
+            background-color: #4a3728;
+            color: white;
+            border: 8px double #4a3728;
+            border-bottom: 4px solid #c49a6c;
+            margin-bottom: 0;
+        }
+
+        .header-logo-cell {
+            padding: 15px;
+        }
+
+        .header-logo {
+            width: 90px;
+            height: 90px;
+            background-color: #c49a6c;
+            border-radius: 50%;
+            display: block;
+            background-image: url('https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG');
+            background-size: cover;
+            background-position: center;
+            border: 3px solid white;
+        }
+
+        .header-title-cell {
+            padding: 10px;
+        }
+
+        .header-title-cell h1 {
+            margin: 5px 0 0;
+            font-size: 44px;
+            letter-spacing: 3px;
+            font-weight: bold;
+        }
+
+        .header-title-cell p {
+            margin: 5px 0 0;
+            font-style: italic;
+            font-size: 16px;
+            color: #f2e8dc;
+        }
+
+        /* ==================== NAV ==================== */
+        .nav-table {
+            background-color: #c49a6c;
+            color: #4a3728;
+            font-weight: bold;
+            border: 8px double #4a3728;
+            border-top: none;
+            text-align: center;
+        }
+
+        .nav-table a {
+            display: block;
+            text-decoration: none;
+            color: #4a3728;
+            padding: 14px 0;
+            transition: all 0.3s ease;
+        }
+
+        .nav-table a:hover {
+            background-color: #4a3728;
+            color: white;
+        }
+
+        .nav-table td {
+            border-right: 1px solid #4a3728;
+        }
+
+        .nav-table td:last-child {
+            border-right: none;
+        }
+
+        .content {
+            background-color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #4a3728;
+            margin-top: 0;
+            font-size: 28px;
+        }
+
+        p {
+            color: #333;
+            line-height: 1.6;
+        }
+
+        .table-produk {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        .table-produk th {
+            background-color: #4a3728;
+            color: white;
+            text-align: left;
+            padding: 10px;
+        }
+
+        .table-produk td {
+            padding: 10px;
+            border-bottom: 1px solid #4a3728;
+        }
+
+        .table-produk tr:last-child td {
+            border-bottom: none;
+        }
+
+        .footer {
+            background-color: #4a3728;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+        }
+
+        /* Responsive */
+        @media (max-width: 700px) {
+            .nav td {
+                display: block;
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <table class="header-table" width="100%">
+        <tr>
+            <td class="header-logo-cell" width="20%" align="center">
+                <span class="header-logo"></span>
+            </td>
+            <td class="header-title-cell" width="80%" align="center">
+                <h1>KOPI BANGELAN</h1>
+                <p>Cita Rasa Asli Malang Sejak 1987</p>
+            </td>
+        </tr>
+    </table>
+
+    <table class="nav-table" width="100%" cellspacing="0" cellpadding="0">
+        <tr>
+            <td><a href="index.html">BERANDA</a></td>
+            <td><a href="produk.html">PRODUK</a></td>
+            <td><a href="wisata.html">WISATA KOPI</a></td>
+            <td><a href="tentang.html">TENTANG</a></td>
+            <td><a href="kontak.html">KONTAK</a></td>
+        </tr>
+    </table>
+
+
+    <!-- Konten -->
+    <table class="vintage-border content" width="100%" cellspacing="20" cellpadding="10">
+        <tr>
+            <td>
+                <h2>Selamat Datang di Kopi Bangelan</h2>
+                <p>
+                    Kopi Bangelan berasal dari dataran tinggi Malang, ditanam di kebun rakyat Desa Bangelan sejak tahun
+                    1987.
+                    Dikenal dengan cita rasa khas robusta Jawa Timur: aroma kuat, rasa pahit elegan, dan aftertaste yang
+                    dalam.
+                    Kami menggabungkan tradisi petani lokal dengan semangat inovasi modern.
+                </p>
+
+                <table class="table-produk">
+                    <tr>
+                        <th>Varian Kopi</th>
+                        <th>Deskripsi</th>
+                    </tr>
+                    <tr>
+                        <td>Robusta Bangelan</td>
+                        <td>Cita rasa kuat, pahit elegan, cocok untuk penyuka kopi pekat.</td>
+                    </tr>
+                    <tr>
+                        <td>Excelsa Klasik</td>
+                        <td>Aroma rempah dan rasa ringan, cocok untuk penikmat santai.</td>
+                    </tr>
+                    <tr>
+                        <td>House Blend</td>
+                        <td>Campuran robusta dan excelsa untuk keseimbangan rasa dan aroma.</td>
+                    </tr>
+                    <tr>
+                        <td>Special Roast</td>
+                        <td>Roast medium–dark khas Bangelan, cocok untuk espresso dan tubruk.</td>
+                    </tr>
+                </table>
+
+                <p><i>“Setiap tegukan Kopi Bangelan bukan sekadar minuman — tapi perjalanan rasa dari kebun ke
+                        cangkir.”</i></p>
+            </td>
+        </tr>
+    </table>
+
+    <!-- Footer -->
+    <table class="vintage-border footer" width="100%">
+        <tr>
+            <td>
+                &copy; 2025 Kopi Bangelan. Semua Hak Dilindungi.<br>
+                Desa Bangelan • Malang, Jawa Timur • (0341) 123-4567
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
