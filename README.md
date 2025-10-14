@@ -1,7 +1,9 @@
-Oke! Aku buatkan versi README yang lebih **menarik dan “eye-catching”** untuk GitHub, tetap profesional untuk tugas kuliah. Saya tambahkan **badge, link live GitHub Pages**, dan highlight teknologi.
+Oke! Kita bisa bikin README dengan **thumbnail/gambar preview website** supaya langsung terlihat di GitHub. Biasanya cukup pakai gambar di folder `/images/` atau link langsung ke screenshot. Berikut contohnya:
 
 ```markdown
 # Kopi Bangelan - Website Statis
+
+![Preview Website](images/preview.png)
 
 ![HTML Badge](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
 ![CSS Badge](https://img.shields.io/badge/CSS3-1572B6?style=flat-square&logo=css3&logoColor=white)
@@ -27,7 +29,7 @@ Website dapat diakses online melalui GitHub Pages:
 /tentang.html      -> Halaman Tentang
 /kontak.html       -> Halaman Kontak
 /style.css         -> File CSS utama
-/images/           -> Folder untuk gambar
+/images/           -> Folder untuk gambar (termasuk preview.png)
 
 ````
 
@@ -44,7 +46,7 @@ Website dapat diakses online melalui GitHub Pages:
 
 * HTML5
 * CSS3
-* Layout berbasis tabel (tidak menggunakan framework/library)
+* Layout berbasis tabel (tanpa framework/library)
 
 ## Lisensi
 
@@ -54,7 +56,12 @@ Hak cipta © 2025 Kopi Bangelan. Semua Hak Dilindungi.
 
 ---
 
-Kalau mau, aku bisa buatkan **versi README dengan thumbnail gambar website** yang muncul langsung di GitHub agar terlihat lebih menarik secara visual di halaman repo.  
+### 🔹 Catatan Penting
+1. Pastikan ada **file screenshot** di folder `images` bernama `preview.png`.  
+   Bisa diambil dari tampilan `index.html` di browser.
+2. GitHub otomatis menampilkan gambar di README jika path benar.  
+3. Jika mau, bisa buat **beberapa preview** untuk halaman Produk, Tentang, Kontak, dan tampilkan di README secara horizontal/vertikal.
 
-Apakah mau aku buatkan juga versi dengan thumbnail?
+Kalau mau, aku bisa buatkan versi **README dengan 4 thumbnail halaman sekaligus** supaya lebih profesional dan interaktif.  
+Apakah mau aku buatkan versi itu juga?
 ```
