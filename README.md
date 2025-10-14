@@ -1,5 +1,3 @@
-Oke! Kita bisa bikin README dengan **thumbnail/gambar preview website** supaya langsung terlihat di GitHub. Biasanya cukup pakai gambar di folder `/images/` atau link langsung ke screenshot. Berikut contohnya:
-
 ```markdown
 # Kopi Bangelan - Website Statis
 
@@ -22,16 +20,13 @@ Website dapat diakses online melalui GitHub Pages:
 [https://daffarmd.github.io/kopi-bangelan/](https://daffarmd.github.io/kopi-bangelan/)
 
 ## Struktur Folder
-```
 
 /index.html        -> Halaman Beranda
 /produk.html       -> Halaman Produk
 /tentang.html      -> Halaman Tentang
 /kontak.html       -> Halaman Kontak
 /style.css         -> File CSS utama
-/images/           -> Folder untuk gambar (termasuk preview.png)
 
-````
 
 ## Cara Menjalankan
 1. Clone repository ini:
@@ -41,27 +36,12 @@ Website dapat diakses online melalui GitHub Pages:
 
 2. Buka salah satu file `.html` di browser favoritmu.
    Contoh: `index.html`
+   
+(Optional)
+3. Gunakan plugin live server
 
 ## Teknologi yang Digunakan
 
 * HTML5
 * CSS3
 * Layout berbasis tabel (tanpa framework/library)
-
-## Lisensi
-
-Hak cipta © 2025 Kopi Bangelan. Semua Hak Dilindungi.
-
-```
-
----
-
-### 🔹 Catatan Penting
-1. Pastikan ada **file screenshot** di folder `images` bernama `preview.png`.  
-   Bisa diambil dari tampilan `index.html` di browser.
-2. GitHub otomatis menampilkan gambar di README jika path benar.  
-3. Jika mau, bisa buat **beberapa preview** untuk halaman Produk, Tentang, Kontak, dan tampilkan di README secara horizontal/vertikal.
-
-Kalau mau, aku bisa buatkan versi **README dengan 4 thumbnail halaman sekaligus** supaya lebih profesional dan interaktif.  
-Apakah mau aku buatkan versi itu juga?
-```
