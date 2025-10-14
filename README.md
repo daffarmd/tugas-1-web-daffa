@@ -12,12 +12,6 @@ Menampilkan halaman **Beranda, Produk, Tentang, dan Kontak** untuk "Kopi Bangela
 Semua halaman dibuat **menggunakan HTML dan CSS murni**, tanpa JavaScript atau library eksternal.  
 Desain mengikuti tema **vintage** dengan **border ganda**, warna kopi, dan layout berbasis tabel.
 
-> _“Setiap tegukan Kopi Bangelan bukan sekadar minuman — tapi perjalanan rasa dari kebun ke cangkir.”_
-
-## Demo Live
-Website dapat diakses online melalui GitHub Pages:  
-[https://daffarmd.github.io/kopi-bangelan/](https://daffarmd.github.io/kopi-bangelan/)
-
 ## Struktur Folder
 /index.html        -> Halaman Beranda
 
