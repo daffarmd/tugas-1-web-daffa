@@ -28,8 +28,7 @@ Desain mengikuti tema **vintage** dengan **border ganda**, warna kopi, dan layou
    git clone https://github.com/daffarmd/kopi-bangelan.git
 2. Buka salah satu file `.html` di browser favoritmu.
    Contoh: `index.html`
-(Optional)
-3. Gunakan plugin live server
+3. Gunakan plugin live server (Alternatif dan Rekomended)
 
 ## Teknologi yang Digunakan
 
