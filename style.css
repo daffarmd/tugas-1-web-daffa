@@ -1,0 +1,101 @@
+/* Warna dasar dan font */
+body {
+  background-color: #c2e0ec; /* biru muda */
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Tabel utama */
+.main-table {
+  width: 80%;
+  border: 5px solid #d6c76f;
+  border-collapse: collapse;
+  background-color: #ffffff;
+}
+
+/* HEADER */
+.header img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* NAVBAR */
+.navbar td {
+  background-color: #d6c76f;
+  text-align: center;
+  border: 2px solid #b3a444;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #4b2f00;
+  text-decoration: none;
+  font-weight: bold;
+  display: block;
+}
+
+.navbar a:hover {
+  background-color: #e4d87a;
+}
+
+/* KONTEN */
+.content {
+  padding: 2px 100px;
+  text-align: justify;
+  vertical-align: middle;
+}
+
+/* OUR PRODUCT */
+.product-title {
+  text-align: center;
+  padding: 20px 0 0 0;
+}
+
+
+.product-images {
+  text-align: center;
+  padding: 20px 0;
+}
+
+.product-images img {
+  width: 150px;
+  margin: 0 30px;
+}
+
+/* FOOTER */
+.footer {
+  background-color: #d6c76f;
+  text-align: center;
+  font-size: 14px;
+  padding: 10px;
+  border-top: 3px solid #b3a444;
+}
+
+.text-content {
+  padding: 0 100px; 
+}
+
+.text-content p {
+  text-align: justify;
+  line-height: 1.6;
+  margin: 0;
+}
+
+
+
+/* teks di kiri */
+.text-content-left p {
+  text-align: justify;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* gambar di kanan */
+.image-content-right {
+  vertical-align: middle;
+}
+
+.info-img {
+  width: 350px;
+}
